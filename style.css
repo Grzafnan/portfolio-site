@@ -1,0 +1,236 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mukta', sans-serif;
+}
+
+nav img {
+  width: 100px;
+}
+
+.main{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 5%;
+}
+
+.navbar {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: #FD4C2E;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #FD4C2E;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover::after{
+  width: 100%;
+}
+
+
+.left-text{
+  color: #FBA24F;
+}
+
+.container{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.right img{
+  width: 80%;
+}
+.left{
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.left h1 {
+  font-size: 45px;
+  font-family: 'Mukta', sans-serif;
+}
+.left-paragraph{
+  font-size: 18px;
+  position: relative;
+}
+.right{
+  width: 50%;
+}
+
+.left a{
+  text-decoration: none;
+}
+
+.signup-btn{
+  color: #fff;
+  cursor: pointer;
+  background-image: linear-gradient(#FD4C2E, #eb8d35);
+  padding: 6px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 20px;
+  position:absolute;
+  margin-top: 20px;
+}
+
+.about-container{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.image-box img{
+  width: 500px;
+  height: 700px;
+  margin-top: 5%;
+}
+
+.image-box{
+  width: 50%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+.about-box{
+  width: 50%;
+  padding: 2%;
+  margin-top: 10%;
+  margin-right: 3%;
+}
+.about{
+  width: 100%;
+  text-align: justify;
+  background-image: url(./images/shapes/7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.about-box a {
+  text-decoration: none;
+}
+
+.signup-btn:hover{
+  color: #fff;
+  background: #ff0000;
+}
+
+.about-box h2{
+  font-size: 40px;
+}
+
+.my-recipies{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.text-area{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-area h1 {
+  font-size: 40px;
+}
+
+
+.recipie-box img{
+  width: 400px;
+  height: 280px;
+  margin-left: 24px;
+  margin-top: 24px;
+  
+}
+
+.recipie-box:hover{
+  position: relative;
+  box-shadow: 5px 7px 20px #FBA24F;
+}
+
+
+.recipie-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+
+.recipie-box{
+  width: 450px;
+  box-shadow: 5px 7px 40px gray;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.recipie-box h2 {
+  margin-left: 24px;
+}
+
+.recipie-box p {
+    text-align: justify;
+   margin: 0 24px 10px 24px;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.social-container {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  box-shadow: 5px 7px 40px gray;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.social-container h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.social-container p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: -35px;
+}
+
+.eat-fresh{
+  width: 65%;
+  color: #fff;
+  text-align: center;
+  background-color: #0B0D17;
+  margin-bottom: 10px;
+}
